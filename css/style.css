@@ -216,10 +216,11 @@ MEDIA QUERIES
 .profile {
   clear: both;
 }
-.name {
-  float: left;
-  margin: 0;
-  padding: 0;
+.profile p {
+  width: 35%;
+}
+.profile img {
+  padding-left: 140px;
 }
 
 

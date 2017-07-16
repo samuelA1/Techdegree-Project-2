@@ -1,0 +1,235 @@
+/**********************
+HEADER
+**********************/
+.main-header {
+  background-color: #F5F5F5;
+  padding-top: 1em;
+
+}
+.main-nav {
+  clear: both;
+}
+
+.name,
+.profile,
+.main-nav li {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.main-nav li {
+  background: #fff;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.name {
+  padding-bottom: 15px;
+}
+.profile-image {
+  width: 75%;
+}
+.main-nav ul {
+  padding-left: 0px
+}
+.profile{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/**********************
+BODY
+**********************/
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  line-height: 1.8em;
+  margin: 0;
+  text-align: center;
+
+}
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#portfolio {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  clear: both;
+}
+/**********************
+FOOTER
+**********************/
+.main-footer {
+  text-align: center;
+  clear: both;
+}
+.main-footer li {
+  display: inline;
+  padding: 1em;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 50%;
+
+}
+#contact span {
+  font-weight: bold;
+  padding-left: 1em;
+}
+.main-footer a {
+  float: right;
+}
+.main-footer span {
+  float: left;
+}
+#bottom-nav {
+  display: none;
+}
+
+/**********************
+OTHERS
+**********************/
+* {
+  box-sizing: border-box;
+}
+#contact,
+.main-footer {
+  background-color: #F5F5F5;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+a:visited {
+  color: #000;
+  }
+.email {
+  margin: 0;
+}
+.main-footer ul {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+#contact {
+  text-align: center;
+  clear: both;
+  padding: 40px 5px;
+}
+img {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h3,
+.main-nav li {
+  font-size: .9em;
+}
+h4 {
+  letter-spacing: 0.8px;
+}
+/**********************
+MEDIA QUERIES
+**********************/
+/************ MEDIA QUERIES 768 PX**************************/
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .wrap {
+    min-height: calc(100vh - 66px);
+  }
+  #backtop {
+    display: none;
+  }
+  #bottom-nav {
+    display: inline;
+  }
+  #bottom-nav a {
+    float: right;
+    padding-right: 1.5em;
+  }
+  .main-footer ul {
+    padding-bottom: 50px;
+  }
+  .main-nav li {
+    display: inline-block;
+    margin-right: 40px;
+    background-color: #F5F5F5;
+  }
+  .clear {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+
+  }
+  .profile img,
+  .profile p {
+    float: right;
+  }
+  .profile img {
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  .profile p {
+    width: 60%;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.main-header {
+  padding-bottom: 40px;
+}
+
+}
+
+/************ MEDIA QUERIES 1024 PX**************************/
+
+@media (min-width: 1024px) {
+
+.name,
+.main-nav ul,
+.main-nav li {
+  display: inline;
+}
+
+.main-nav {
+  float: right;
+}
+  .clear {
+  float: left;
+  width:33%;
+  padding-left: 7px;
+}
+
+.profile {
+  clear: both;
+}
+.name {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

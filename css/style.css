@@ -2,7 +2,7 @@
 HEADER
 **********************/
 .main-header {
-  background-color: #F5F5F5;
+  background-color: 	#FFC0CB;
   padding-top: 3em;
 
 }
@@ -97,7 +97,7 @@ OTHERS
 }
 #contact,
 .main-footer {
-  background-color: #F5F5F5;
+  background-color: 	#FFC0CB;
 }
 a {
   text-decoration: none;
@@ -167,7 +167,7 @@ MEDIA QUERIES
   .main-nav li {
     display: inline-block;
     margin-right: 40px;
-    background-color: #F5F5F5;
+    background-color: 	#FFC0CB;
   }
   .clear {
     float: left;

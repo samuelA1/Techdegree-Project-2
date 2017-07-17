@@ -132,6 +132,9 @@ h3,
 h4 {
   letter-spacing: 0.8px;
 }
+a:hover {
+  color: 	#EE82EE;
+}
 /**********************
 MEDIA QUERIES
 **********************/

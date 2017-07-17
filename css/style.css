@@ -7,7 +7,7 @@ HEADER
 
 }
 .main-nav {
-  clear: both;
+  padding: 30px 0;
 }
 
 .name,
@@ -221,21 +221,10 @@ MEDIA QUERIES
   clear: both;
 }
 .name {
-  position: absolute;
-  left: 400px;
+  float: left;
 }
 .profile img {
   padding-left: 140px;
 }
-
-
-
-
-
-
-
-
-
-
 
 }

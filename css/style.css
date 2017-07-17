@@ -3,7 +3,7 @@ HEADER
 **********************/
 .main-header {
   background-color: #F5F5F5;
-  padding-top: 1em;
+  padding-top: 3em;
 
 }
 .main-nav {
@@ -73,7 +73,7 @@ FOOTER
   margin-right: 0;
   margin-left: 0;
   width: 50%;
-  
+
 }
 #contact span {
   font-weight: bold;
@@ -220,8 +220,9 @@ MEDIA QUERIES
 .profile {
   clear: both;
 }
-.profile p {
-  width: 35%;
+.name {
+  position: absolute;
+  left: 400px;
 }
 .profile img {
   padding-left: 140px;
